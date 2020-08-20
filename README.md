@@ -51,3 +51,11 @@ This is a template that you can use to start a Django project.
 **Navigate the database**
 1. Enter the db docker, example: `docker exec -it django-starter_db_1 bash`
 2. Enter the database with psql, example: `psql -Upostgres`
+
+**Create an app**
+1. Enter the web docker, example: `docker exec -it django-starter_web_1 bash`
+2. Create the app, example: `python ./manage.py startapp mydjangoapp`
+
+**Run tests**
+1. Enter the web docker, example: `docker exec -it django-starter_web_1 bash`
+2. Run tests `python ./manage.py test`
